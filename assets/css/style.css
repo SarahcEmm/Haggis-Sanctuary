@@ -11,8 +11,11 @@ html {
 }
 
 body {
-    width: 100%;
-    height: 100%;
+    background-image: url('../images/forest-5679491_1280.jpg'); no-repeat cover center/center
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -107,11 +110,14 @@ nav>ul>li>a:hover {
 }
 
 #hero {
-    background-image: url('../images/forest-5679491_1280.jpg');
-    position: absolute;
-    height: 600px;
-    width: 100%;
-    padding: 20px;
+    #hero {
+        background-image: url('../images/forest-5679491_1280.jpg') no-repeat cover center/center;
+        position: relative;
+        height: 600px;
+        width: 100%;
+        padding: 20px;
+        background-position: center 0;
+    }
 }
 
 #cover-text {
@@ -141,7 +147,7 @@ nav>ul>li>a:hover {
     position:relative;
 }
 .bout {
-    background-image: url('../images/forest-5679491_1280.jpg');
+    background-image: url('../images/forest-5679491_1280.jpg') no-repeat cover center/center;
     position: absolute;
     height: 600px;
     width: 100%;
