@@ -108,11 +108,10 @@ nav>ul>li>a:hover {
 
 #hero {
     background-image: url('../images/forest-5679491_1280.jpg');
-    position: relative;
+    position: absolute;
     height: 600px;
     width: 100%;
     padding: 20px;
-    background-position: center 0;
 }
 
 #cover-text {
