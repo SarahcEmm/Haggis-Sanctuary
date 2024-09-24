@@ -17,6 +17,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-top: 80px;
+
 }
 
 
@@ -115,12 +117,45 @@ nav>ul>li>a:hover {
     top: 50%;
     transform: translate(-50%, -50%);
     padding: 90px;
+    border: 2px solid #f7df07
 }
 
 #cover-text h2 {
     font-size: 200%;
     text-align: center;
     color: #f7df07;
+
+}
+#cover-text h3 {
+    font-size: 100%;
+    text-align: center;
+    color: #f7df07;
+    padding: 5%;
+
+}
+.about {
+    position:relative;
+}
+.bout {
+    background-image: url('../images/forest-5679491_1280.jpg');
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+.about {
+    background-color: rgba(25, 79, 36, 0.7);
+    position: absolute;
+    padding: 20px;
+    border: 2px solid #f7df07
+}
+.about h3 {
+    font-size: 200%;
+    text-align: center;
+    color: #f7df07;
+    padding: 5%;
 
 }
 
