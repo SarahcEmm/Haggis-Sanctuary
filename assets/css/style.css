@@ -3,7 +3,7 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+   
     text-decoration: none;
 }
 
@@ -20,12 +20,16 @@ body {
     padding-top: 80px;
 
 }
+  
+  main {
+    flex: 1;
+  }
 
 
 
 
 * {
-    box-sizing: border-box;
+   
     margin: 0;
     padding: 0;
     font-family: Fraunces, sans-serif;
@@ -45,6 +49,7 @@ header {
     margin: 0;
     padding: 0;
     z-index: 5;
+    min-height: 50px;
 }
 
 header * {
@@ -142,7 +147,6 @@ nav>ul>li>a:hover {
     height: 600px;
     width: 100%;
     padding: 20px;
-    
 }
 
 .about {
@@ -165,13 +169,11 @@ nav>ul>li>a:hover {
     padding: 5px;
 
 }
+.about ul{
+    color: #f7df07;
+    padding: 5px;
 
-
-
-
-
-
-
+}
 .footer {
     background-color: #194f24;
     position: fixed;
@@ -210,16 +212,10 @@ nav>ul>li>a:hover {
     color: #194f24;
 }
 
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
 
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #f7df07;
-}
+
+
+
+
+
+
