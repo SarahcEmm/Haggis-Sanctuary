@@ -147,15 +147,22 @@ nav>ul>li>a:hover {
 
 .about {
     background-color: rgba(25, 79, 36, 0.7);
-    position: absolute;
     padding: 20px;
-    border: 2px solid #f7df07
+    border: 2px solid #f7df07;
+    margin: 0;
 }
+
+
 .about h3 {
     font-size: 200%;
     text-align: center;
     color: #f7df07;
-    padding: 5%;
+    padding: 5px;
+
+}
+.about p {
+    color: #f7df07;
+    padding: 5px;
 
 }
 
