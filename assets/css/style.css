@@ -15,11 +15,12 @@ body {
     width: 100%;
     height: 100%;
     min-height: 100vh;
-    display:flex;
+    display: flex;
     flex-direction: column;
-
-
 }
+
+
+
 
 * {
     box-sizing: border-box;
@@ -39,6 +40,9 @@ header {
     align-items: center;
     box-shadow: 2px;
     background-color: #194f24;
+    margin: 0;
+    padding: 0;
+    z-index: 5;
 }
 
 header * {
@@ -54,7 +58,8 @@ header li a {
     text text-decoration: none;
     text-decoration: none;
     font-family: Fraunces;
-    font-size: 100%
+    font-size: 100%;
+    z-index: -1;
 }
 
 nav {
@@ -94,6 +99,31 @@ nav>ul>li>a:hover {
     font-size: 200%;
 }
 
+#hero {
+    background-image: url('../images/forest-5679491_1280.jpg');
+    position: relative;
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+    background-position: center 0;
+}
+
+#cover-text {
+    background-color: rgba(25, 79, 36, 0.7);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 90px;
+}
+
+#cover-text h2 {
+    font-size: 200%;
+    text-align: center;
+    color: #f7df07;
+
+}
+
 
 
 
@@ -110,6 +140,7 @@ nav>ul>li>a:hover {
     text-align: center;
     margin-top: auto;
 }
+
 .footer-about {
     background-color: #194f24;
     position: fixed;
@@ -120,15 +151,19 @@ nav>ul>li>a:hover {
     text-align: center;
     margin-top: auto;
 }
+
+
+
 .footer-button {
-background-color: #f7df07;
-color: #194f24;
-font-family: Fraunces;
-padding: 20px;
-font-size: 20px;
-margin: 4px;
-align-items: center;
+    background-color: #f7df07;
+    color: #194f24;
+    font-family: Fraunces;
+    padding: 20px;
+    font-size: 20px;
+    margin: 4px;
+    align-items: center;
 }
+
 .footer-button h3 {
     color: #194f24;
 }
