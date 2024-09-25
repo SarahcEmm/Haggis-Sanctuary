@@ -250,6 +250,7 @@ nav>ul>li>a:hover {
     margin: 80px;
     border: 20px;
     columns: 3;
+    margin: 0 auto;
     
 
 }
@@ -283,6 +284,14 @@ img {
     padding: 0px;
 
 }
+.thumb-holder h4 {
+    color: #f7df07;
+    background-color: rgba(25, 79, 36, 0.7);
+    text-align: center;
+    padding: 0px;
+    width: 232px;
+
+}
 
 
 
@@ -293,6 +302,23 @@ img {
         column-count: 1;
         column-gap: 0;
     }
+}
+
+
+    @media screen and (min-width: 768px) {
+        .adopt-list {
+            column-count: 2;
+            column-gap: 0;
+        }
+    }
+
+    @media screen and (min-width: 992px){
+    .adopt-list {
+        column-count: 4;
+        column-gap: 0;
+    }
+    }
+
 
 
 
