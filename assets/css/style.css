@@ -110,6 +110,17 @@ nav>ul>li>a {
 nav>ul>li>a:hover {
     font-size: 200%;
 }
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
 
 #hero {
     #hero {
@@ -301,6 +312,33 @@ img {
     text-align: center;
     padding: 0px;
     width: 232px;
+
+}
+#contact-form{
+    background-color: rgba(25, 79, 36, 0.7);
+    padding: 0px;
+    border: 2px solid #f7df07;
+    margin: 0;
+    padding: 10px;
+    color: #f7df07;
+    margin: 30px;
+    text-align: center;
+    
+}
+#contact-form input{
+    background-color: rgba(25, 79, 36, 0.7);
+    padding: 0px;
+    border: 2px solid #f7df07;
+    margin: 0;
+    padding: 10px;
+    color: #f7df07;
+    margin: 30px;
+    text-align: center;
+    
+}
+button {
+    background-color: #f7df07;
+    padding: 10px;
 
 }
 
