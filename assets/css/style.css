@@ -108,17 +108,7 @@ nav>ul>li>a {
 nav>ul>li>a:hover {
     font-size: 200%;
 }
-#nav-toggle:checked~nav {
-    display: block;
-}
 
-#nav-toggle {
-    display: none;
-}
-
-.nav-toggle-label {
-    font-size: 2rem;
-}
 
 #hero {
     #hero {
