@@ -192,7 +192,7 @@ nav>ul>li>a:hover {
     background-color: rgba(25, 79, 36, 0.7);
     padding: 0px;
     border: 2px solid #f7df07;
-    margin: 0;
+    margin-top: 40px;
 }
 
 
@@ -201,6 +201,7 @@ nav>ul>li>a:hover {
     text-align: center;
     color: #f7df07;
     padding: 0px;
+    
 
 }
 .history p {
@@ -269,8 +270,18 @@ img {
     padding: 0px;
     border: 2px solid #f7df07;
     margin: 0;
+    padding: 10px;
 }
-
+.animals-adopt {
+    background-color: rgba(25, 79, 36, 0.7);
+    padding: 0px;
+    border: 2px solid #f7df07;
+    margin: 0;
+    padding: 10px;
+    color: #f7df07;
+    margin: 30px;
+    text-align: center;
+}
 
 .content h3 {
     font-size: 200%;
